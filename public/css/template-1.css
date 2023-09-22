@@ -1,0 +1,152 @@
+.page {
+  background: #ffffff;
+  padding: 0 15px;
+}
+
+.page-content {
+  max-inline-size: 960px;
+  margin: auto;
+}
+
+.header {
+  padding: 24px;
+}
+
+.logo {
+  font-size: 17px;
+}
+
+.divider {
+  margin: 0;
+  block-size: 1px;
+  background: #dee2e6;
+}
+
+.nav {
+  display: block;
+}
+
+.nav_link {
+  color: #343a40;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.nav_link:hover {
+  text-decoration: underline;
+  color: blue;
+}
+
+.nav_vertical > .nav_link {
+  display: block;
+}
+
+.nav_inline > .nav_link:not(:last-child) {
+  margin-inline-end: 24px;
+}
+
+.nav_vertical > .nav_link:not(:last-child) {
+  margin-block-end: 12px;
+}
+
+.header_nav_right {
+  margin-inline-start: auto;
+  inline-size: fit-content;
+}
+
+.page_block:not(:last-of-type) {
+  margin-block-end: 80px;
+}
+
+.footer {
+  padding: 24px 0;
+}
+
+.footer_copyright {
+  font-size: 12.8px;
+  color: #6c757d;
+  display: block;
+  margin-block-start: 12px;
+}
+
+.footer_title {
+  color: #212529;
+  font-size: 20px;
+  font-weight: 500;
+  display: block;
+  margin-block-end: 12px;
+}
+
+.hero_title {
+  color: #212529;
+  text-align: center;
+  font-size: 56px;
+  font-weight: 500;
+  margin-block-end: 12px;
+}
+
+.hero_text {
+  color: #212529;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 150%; /* 30px */
+  max-inline-size: 585px;
+  margin: 0 auto;
+}
+
+.plans_card:not(:last-of-type) {
+  margin-inline-end: 24px;
+}
+
+.card-header {
+  padding: 12px;
+  color: #212529;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28.8px;
+}
+
+.card-body {
+  padding: 24px;
+}
+
+.card_block {
+  text-align: center;
+}
+
+.card_block:not(:last-of-type) {
+  margin-block-end: 24px;
+}
+
+.card_price_ammount {
+  color: #212529;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.card_price_duration {
+  color: #6c757d;
+  text-align: center;
+  font-size: 29px;
+}
+
+.card_features_item {
+  color: #212529;
+
+  font-size: 16px;
+  display: block;
+}
+
+.card_features_item:not(:last-of-type) {
+  margin-block-end: 12px;
+}
+
+.card_button {
+  display: block;
+  inline-size: 100%;
+  font-size: 19px;
+  padding: 9px;
+}
