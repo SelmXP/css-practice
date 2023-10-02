@@ -1,0 +1,26 @@
+{{> headerDark data=header}}
+
+{{#with hero}}
+<section class="hero">
+    <h1>{{title}}</h1>
+    <p>{{description}}</p>
+    <a href="https:{{button.url}}">{{button.text}}</a>
+</section>
+{{/with}}
+
+<section class="about">
+    <h2>{{about.heading}}</h2>
+    <p>{{about.info}}</p>
+</section>
+
+<section class="articles">
+    <div class="articles_header">
+        <h3>Our Articles</h3>
+        <a href="#">View All</a>
+    </div>
+    <div class="articles_list">
+        {{#each articles}} {{> cardArticles data=this}} {{/each}}
+    </div>
+</section>
+
+{{> footerDark data=footer}}
